@@ -98,7 +98,7 @@ RCT_REMAP_METHOD(login,
 				reject(@"RNKakao", @"login canceled", nil);
 				return;
 			}
-		} authTypes:KOAuthTypeAccount, nil];
+		 } authType: KOAuthTypeAccount, nil];
 	});
 }
 
